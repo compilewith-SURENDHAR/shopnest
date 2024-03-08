@@ -5,6 +5,7 @@ import { useFonts } from 'expo-font';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import BottomTabNavigation from './src/navigation/BottomTabNavigation'
+import ProductDetail from './src/screens/ProductDetail';
 
 const stack = createNativeStackNavigator()
 
@@ -39,6 +40,12 @@ export default function App() {
         <stack.Screen
         name='BottomTabNavigation'
         component={BottomTabNavigation}
+        options={{headerShown:false}}
+        />
+
+<stack.Screen
+        name='ProductDetail'
+        component={ProductDetail}
         options={{headerShown:false}}
         />
       </stack.Navigator>

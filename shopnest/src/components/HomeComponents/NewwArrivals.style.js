@@ -8,11 +8,12 @@ const styles = StyleSheet.create({
     header : {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        marginBottom: 8
+        marginBottom: 15,
+        marginTop: 20
     },
     headText : {
-        fontWeight: '700',
-        fontSize: 20,
+        fontWeight: '800',
+        fontSize: 25,
         color: COLORS.primary
     }
 })

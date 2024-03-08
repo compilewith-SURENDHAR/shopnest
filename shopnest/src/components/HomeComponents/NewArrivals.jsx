@@ -14,7 +14,7 @@ const NewArrivals = () => {
       </View>
       <FlatList
         data={products}
-        renderItem={({item}) => (<ProductCardView/>)}
+        renderItem={({item: items}) => (<ProductCardView item={items}/>)}
         horizontal
         contentContainerStyle={{columnGap: 10}}
       />
