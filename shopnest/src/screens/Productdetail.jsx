@@ -20,7 +20,7 @@ const ProductDetail = ({navigation}) => {
         style={styles.imgCover}
       />
       <View style={styles.details}>
-
+        
       </View>
     </SafeAreaView>
   )
